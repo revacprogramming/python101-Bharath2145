@@ -1,7 +1,16 @@
-hrs = input("Enter Hours:")
-h = float(hrs)
-rate = float(input("enter rate:"))
-if h> 40:
-    rate1 = (rate * 1.5) * (h-40)
-    pay = ((h-5)*rate) + rate1
-    print(pay)
+score = input("Enter Score: ")
+S = float(score)
+X = 'error'
+if S >= 0.9:
+   X = 'A'
+elif S >= 0.8:
+      X = 'B'
+elif S >= 0.7:
+      X = 'C'
+elif S >= 0.6:
+      X = 'd'
+elif S < 0.6:
+       S = 'F'
+else:
+     X = "out of range"
+print (X)
