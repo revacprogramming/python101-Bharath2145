@@ -1,4 +1,4 @@
- def computepay(h, r):
+0 def computepay(h, r):
     if h>40:
         rate1 = (r*1.5)*(h-40)
     return ((h-5)*r)+rate1
